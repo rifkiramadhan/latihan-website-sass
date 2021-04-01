@@ -1,0 +1,12 @@
+// Bisa dipisah
+// @import "modules/mixin";
+// @import "modules/header";
+// @import "modules/container";
+// @import "modules/footer";
+
+// Bisa digabung
+// @import "modules/mixin", "modules/header", "modules/container", "modules/footer";
+
+@use "modules/header";
+@use "modules/container";
+@use "modules/footer";

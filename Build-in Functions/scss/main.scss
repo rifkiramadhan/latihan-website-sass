@@ -1,0 +1,53 @@
+// Base
+$warna-dasar: salmon;
+h1 {
+  color: $warna-dasar;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+// Build-in Modules: Color
+// h1 {
+//   color: adjust-color($color: $warna-dasar, $green: 100, $blue: 100, $red: -50);
+// }
+
+// h1 {
+//   color: adjust-hue($warna-dasar, -30deg);
+// }
+
+// h1 {
+//   color: complement($warna-dasar);
+// }
+
+// h1 {
+//   color: darken($warna-dasar, $amount: 20%);
+// }
+
+// h1 {
+//   color: lighten($warna-dasar, $amount: 10%);
+// }
+
+// h1 {
+//   color: saturate($warna-dasar, $amount: 10%);
+// }
+
+// h1 {
+//   color: desaturate($warna-dasar, 0%);
+// }
+
+// h1 {
+//   color: grayscale($warna-dasar);
+// }
+
+// h1 {
+//   color: mix($warna-dasar, blue, 80%);
+// }
+
+// h1 {
+//   color: fade-in(rgba(250, 128, 114, 0.2), 0.5);
+// }
+
+h1 {
+  color: fade-out($warna-dasar, 0.4);
+}
